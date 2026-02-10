@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interactive Tabbed Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="container">
+        <h2>Interactive Dashboard</h2>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab active" data-tab="overview">Overview</button>
+            <button class="tab" data-tab="info">Info</button>
+            <button class="tab" data-tab="services">Services</button>
+            <button class="tab" data-tab="projects">Projects</button>
+            <button class="tab" data-tab="team">Team</button>
+            <button class="tab" data-tab="contact">Contact</button>
+        </div>
+
+        <!-- Content -->
+        <div class="content-area">
+
+            <div class="tab-content active" id="overview">
+                <h3>Overview</h3>
+                <p>This dashboard presents a modern tab system built using HTML, CSS, and JavaScript. 
+                It demonstrates dynamic content switching and interactive UI design.</p>
+            </div>
+
+            <div class="tab-content" id="info">
+                <h3>Information</h3>
+                <p>This module uses DOM manipulation to display content based on user interaction. 
+                Smooth transitions improve user experience.</p>
+            </div>
+
+            <div class="tab-content" id="services">
+                <h3>Services</h3>
+                <ul>
+                    <li>Web Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Frontend Engineering</li>
+                    <li>Performance Optimization</li>
+                </ul>
+            </div>
+
+            <div class="tab-content" id="projects">
+                <h3>Projects</h3>
+                <p>• Movie Listing Website<br>
+                   • Swiggy Clone UI<br>
+                   • Chess AI using Minimax<br>
+                   • Interactive Dashboard Components</p>
+            </div>
+
+            <div class="tab-content" id="team">
+                <h3>Team</h3>
+                <p>Our team consists of developers, designers, and testers working together 
+                to build scalable and modern web applications.</p>
+            </div>
+
+            <div class="tab-content" id="contact">
+                <h3>Contact</h3>
+                <p>Email: internproject@email.com</p>
+                <p>Phone: +91 XXXXX XXXXX</p>
+                <p>Location: Tamil Nadu, India</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
